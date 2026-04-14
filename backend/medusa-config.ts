@@ -22,18 +22,11 @@ module.exports = defineConfig({
   plugins: [
     {
       resolve: '@mercurjs/b2c-core',
-      options: {}
+      options: {},
     },
     {
       resolve: '@mercurjs/commission',
       options: {}
-    },
-    {
-      resolve: '@mercurjs/algolia',
-      options: {
-        apiKey: process.env.ALGOLIA_API_KEY,
-        appId: process.env.ALGOLIA_APP_ID
-      }
     },
     {
       resolve: '@mercurjs/reviews',
